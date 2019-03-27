@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="system\bullet.cpp" />
+    <ClCompile Include="system\Collision.cpp" />
+    <ClCompile Include="system\Renderer.cpp" />
+    <ClCompile Include="GameObj\GameObject.cpp" />
+    <ClCompile Include="GameObj\Monster.cpp" />
+    <ClCompile Include="GameObj\Player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="system\bullet.h" />
+    <ClInclude Include="system\Collision.h" />
+    <ClInclude Include="system\definition.h" />
+    <ClInclude Include="system\Renderer.h" />
+    <ClInclude Include="GameObj\GameObject.h" />
+    <ClInclude Include="GameObj\Monster.h" />
+    <ClInclude Include="GameObj\Player.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>
