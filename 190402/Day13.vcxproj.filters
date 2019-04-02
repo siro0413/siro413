@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Gameobj\GameObject.cpp" />
+    <ClCompile Include="Gameobj\Monster.cpp" />
+    <ClCompile Include="Gameobj\Player.cpp" />
+    <ClCompile Include="system\bullet.cpp" />
+    <ClCompile Include="system\Collision.cpp" />
+    <ClCompile Include="system\Renderer.cpp" />
+    <ClCompile Include="system\bulletm.cpp" />
+    <ClCompile Include="system\SceneManager.cpp" />
+    <ClCompile Include="Scene\stage1.cpp" />
+    <ClCompile Include="map\map.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Gameobj\GameObject.h" />
+    <ClInclude Include="Gameobj\Monster.h" />
+    <ClInclude Include="Gameobj\Player.h" />
+    <ClInclude Include="system\bullet.h" />
+    <ClInclude Include="system\Collision.h" />
+    <ClInclude Include="system\Renderer.h" />
+    <ClInclude Include="system\definition.h" />
+    <ClInclude Include="system\bulletm.h" />
+    <ClInclude Include="system\SceneManager.h" />
+    <ClInclude Include="Scene\IScene.h" />
+    <ClInclude Include="Scene\stage1.h" />
+    <ClInclude Include="map\map.h" />
+  </ItemGroup>
+</Project>
