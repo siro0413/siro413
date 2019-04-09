@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Paramwork\core\Window.h" />
+    <ClInclude Include="Paramwork\core\subsystem\isubsystem.h" />
+    <ClInclude Include="Paramwork\core\Context.h" />
+    <ClInclude Include="Paramwork\core\subsystem\Graphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Paramwork\core\subsystem\Graphics.cpp" />
+  </ItemGroup>
+</Project>
