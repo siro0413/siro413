@@ -1,0 +1,19 @@
+﻿  Main.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\stdafx.h(27): fatal error C1083: 포함 파일을 열 수 없습니다. 'D3DX10math.h': No such file or directory
+  Vertex.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\d3d11\basicdata\vertex.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Indexbuffer.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\d3d11\iastage\indexbuffer.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  InputLayout.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\d3d11\iastage\inputlayout.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  VertexBuffer.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\d3d11\iastage\vertexbuffer.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  engine.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\engine.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Settings.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\settings.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Graphics.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\pramwork\core\subsystem\graphics.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  stdafx.cpp
+c:\users\ok\desktop\sga 과제\190419 dx\d2dll\stdafx.h(27): fatal error C1083: 포함 파일을 열 수 없습니다. 'D3DX10math.h': No such file or directory
+  코드를 생성하고 있습니다...
