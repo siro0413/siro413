@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Framework\Core\Window.h" />
+    <ClInclude Include="Framework\Core\Context.h" />
+    <ClInclude Include="Framework\Core\Subsystem\ISubsystem.h" />
+    <ClInclude Include="Framework\Core\Subsystem\Graphics.h" />
+    <ClInclude Include="Framework\Core\Settings.h" />
+    <ClInclude Include="Framework\Core\Engine.h" />
+    <ClInclude Include="Framework\Core\D3D11\BasicData\Vertex.h" />
+    <ClInclude Include="Framework\Core\D3D11\BasicData\Geometry.h" />
+    <ClInclude Include="Framework\Core\D3D11\BasicData\Geometry.inl" />
+    <ClInclude Include="Framework\Core\D3D11\IAStage\VertexBuffer.h" />
+    <ClInclude Include="Framework\Core\D3D11\IAStage\IndexBuffer.h" />
+    <ClInclude Include="Framework\Core\D3D11\IAStage\InputLayout.h" />
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\VertexShader.h" />
+    <ClInclude Include="Framework\Core\D3D11\D3D11_Helper.h" />
+    <ClInclude Include="Framework\Utility\FileSystem.h" />
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\PixelShader.h" />
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\ConstantBuffer.h" />
+    <ClInclude Include="Framework\Core\D3D11\BasicData\D3D11_Config.h" />
+    <ClInclude Include="Framework\Scene\Component\Camera.h" />
+    <ClInclude Include="Framework\Core\Subsystem\Input.h" />
+    <ClInclude Include="Framework\Core\Subsystem\SceneManager.h" />
+    <ClInclude Include="Framework\Scene\Scene.h" />
+    <ClInclude Include="Framework\Scene\Object\Rect.h" />
+    <ClInclude Include="Framework\Utility\Geometry_Generator.h" />
+    <ClInclude Include="Framework\Resource\IResource.h" />
+    <ClInclude Include="Framework\Resource\Texture.h" />
+    <ClInclude Include="Framework\Core\Subsystem\ResourceManager.h" />
+    <ClInclude Include="Framework\Core\Subsystem\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\Graphics.cpp" />
+    <ClCompile Include="Framework\Core\Settings.cpp" />
+    <ClCompile Include="Framework\Core\Engine.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\BasicData\Vertex.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\IAStage\VertexBuffer.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\IAStage\IndexBuffer.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\IAStage\InputLayout.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\VertexShader.cpp" />
+    <ClCompile Include="Framework\Utility\FileSystem.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\PixelShader.cpp" />
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\ConstantBuffer.cpp" />
+    <ClCompile Include="Framework\Scene\Component\Camera.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\Input.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\SceneManager.cpp" />
+    <ClCompile Include="Framework\Scene\Scene.cpp" />
+    <ClCompile Include="Framework\Scene\Object\Rect.cpp" />
+    <ClCompile Include="Framework\Utility\Geometry_Generator.cpp" />
+    <ClCompile Include="Framework\Resource\IResource.cpp" />
+    <ClCompile Include="Framework\Resource\Texture.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\ResourceManager.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\Timer.cpp" />
+  </ItemGroup>
+</Project>
