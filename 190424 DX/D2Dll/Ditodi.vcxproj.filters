@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Pramwork\core\subsystem\Graphics.h" />
+    <ClInclude Include="Pramwork\core\subsystem\isubsystem.h" />
+    <ClInclude Include="Pramwork\core\Context.h" />
+    <ClInclude Include="Pramwork\core\Settings.h" />
+    <ClInclude Include="Pramwork\core\Window.h" />
+    <ClInclude Include="Pramwork\core\engine.h" />
+    <ClInclude Include="Pramwork\core\D3D11\BasicData\Geometry.h" />
+    <ClInclude Include="Pramwork\core\D3D11\BasicData\Vertex.h" />
+    <ClInclude Include="Pramwork\core\D3D11\IAStage\VertexBuffer.h" />
+    <ClInclude Include="Pramwork\core\D3D11\IAStage\IndexBuffer.h" />
+    <ClInclude Include="Pramwork\core\D3D11\IAStage\InputLayout.h" />
+    <ClInclude Include="Pramwork\core\D3D11\D3D11_Helper.h" />
+    <ClInclude Include="Pramwork\Utilty\FileSystem.h" />
+    <ClInclude Include="Pramwork\core\D3D11\BasicData\D3D11Config.h" />
+    <ClInclude Include="Pramwork\core\D3D11\ShaderSatge\VertexShader.h" />
+    <ClInclude Include="Pramwork\core\D3D11\ShaderSatge\PixelShader.h" />
+    <ClInclude Include="Pramwork\core\subsystem\Input.h" />
+    <ClInclude Include="Pramwork\Scene\Component\Camera.h" />
+    <ClInclude Include="Pramwork\core\D3D11\ShaderSatge\ConstantBuffer.h" />
+    <ClInclude Include="Pramwork\core\subsystem\Scenemanager.h" />
+    <ClInclude Include="Pramwork\Scene\Scene.h" />
+    <ClInclude Include="Pramwork\Scene\Object\Rect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pramwork\core\subsystem\Graphics.cpp" />
+    <ClCompile Include="Pramwork\core\Settings.cpp" />
+    <ClCompile Include="Pramwork\core\engine.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\BasicData\Vertex.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\IAStage\VertexBuffer.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\IAStage\Indexbuffer.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\IAStage\InputLayout.cpp" />
+    <ClCompile Include="Pramwork\Utilty\FileSystem.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\ShaderSatge\PixelShader.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\ShaderSatge\VertexShader.cpp" />
+    <ClCompile Include="Pramwork\core\subsystem\Input.cpp" />
+    <ClCompile Include="Pramwork\Scene\Component\Camera.cpp" />
+    <ClCompile Include="Pramwork\core\D3D11\ShaderSatge\ConstantBuffer.cpp" />
+    <ClCompile Include="Pramwork\core\subsystem\Scenemanager.cpp" />
+    <ClCompile Include="Pramwork\Scene\Scene.cpp" />
+    <ClCompile Include="Pramwork\Scene\Object\Rect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pramwork\core\D3D11\BasicData\Geometry.inl" />
+  </ItemGroup>
+</Project>
